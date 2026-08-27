@@ -1,10 +1,10 @@
-# Notification System — Kafka + Spring Boot + PostgreSQL
+# Notification System — Kafka + Spring Boot + MySQl
 
 A simple, interview-ready project demonstrating event-driven architecture.
 
 ## How it works (the one-liner for interviews)
 
-> "A REST API receives a notification request, publishes it as a JSON event to a Kafka topic, and a consumer picks it up asynchronously and saves it to PostgreSQL."
+> "A REST API receives a notification request, publishes it as a JSON event to a Kafka topic, and a consumer picks it up asynchronously and saves it to MySQL."
 
 ## Flow
 
@@ -30,7 +30,7 @@ POST /api/notifications
 - Java 17
 - Spring Boot 3.2
 - Apache Kafka (Spring Kafka)
-- PostgreSQL 15
+- MySQL
 - Docker + Docker Compose
 - Lombok
 
